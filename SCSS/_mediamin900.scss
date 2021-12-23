@@ -1,0 +1,58 @@
+/*MEDIAMIN900*/
+
+    @media only screen and (min-width: 992px){
+
+
+    
+        /* Main */
+       
+           .title{
+       
+               font-size: 25px;
+           }
+       
+           .subTitle{
+               font-size: 20px;
+           }
+       
+           /*GRILLAS*/
+       
+                /*3*/
+       
+       #cardsLayout{
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr;
+           grid-template-rows: 100%;
+           grid-template-areas: "area1 area2 area3"
+           }
+       
+       .cardbody{
+       
+           height: 300px;
+           margin-bottom: 10%;
+       
+       }
+       
+       
+       
+           /* FOOTER */
+       
+       .footerLayout{
+           flex-direction: row;
+           justify-content: center;
+       }
+       
+       .imgFooter{margin: 0;}
+       
+       .footerLogoLayout{
+           margin: 0;
+           width: 50%;
+       }
+       
+       .footerLayout ul{
+       flex-direction: row;
+       
+       }
+       
+       }
+       

@@ -1,0 +1,52 @@
+@import "variables";
+
+
+/*FOOTER*/
+
+
+.navItem{
+    padding: 10px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: $fuente-ppal;
+    color: grey;
+}
+
+.containerLayout{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.footerLayout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align:center;
+}
+
+.footerLayout ul{
+    width: 100%;
+}
+
+
+.footerLogoLayout{
+    width: 50%;
+}
+
+.fotLayout ul{
+    display: flex;
+}
+
+ .fotLayout{
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotLayout ul{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

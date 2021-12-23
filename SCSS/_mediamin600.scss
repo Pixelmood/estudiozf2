@@ -1,0 +1,83 @@
+
+/*MEDIAMIN600*/
+
+
+@media only screen and (min-width: 600px){
+    
+
+    /*GRILLAS*/
+
+        /*4 Servicios*/
+
+#serviceLayout{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "sarea1" "sarea2"
+                         "sarea3" "sarea4";
+
+}
+
+
+
+    /* Main */
+
+    .title{
+        font-size: 15px;
+    }
+
+    .subTitle{
+        font-size: 15px;
+    }
+
+    /* Footer*/
+
+    .footerLayout {
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .footerNavLayout{
+        width: 50%;
+        margin: 0px;
+    }
+
+    .footerLogoLayout{
+        padding: 10px;
+        width: 30%;
+
+    }
+    
+    .imgFooter{
+        margin-left: 50%;
+
+
+    }
+
+    /*Imagenes*/
+    
+    .imgstretch{
+        width: 100%;
+        margin: 0;
+        align-content: center;
+        display: block;
+        
+        }
+        .imgstretch2{
+            width: 100%;
+            margin-top: 20px;
+            align-content: center;
+            
+            }
+
+
+    }
+
+    /* FORMULARIO */
+
+    .contact_form{
+
+        transform: scale(1,1);
+
+    }
+
