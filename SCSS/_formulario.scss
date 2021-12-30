@@ -1,14 +1,15 @@
-/*FORMULARIO/*
+@import "variables";
 
 /* FORMULARIO */
+
 
 .contact_form{	
     width: 100%; 
     height: auto;
     margin: auto;
-      border-radius: 10px;  
-      padding-top: 30px;
-      padding-bottom: 20px;  
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
     background-color: white; 
     padding-left: 30px; 
     align-items: center;
@@ -51,19 +52,8 @@
   }
   
   
-  .buttonform{
-      height: 30px; 
-      padding-left: 5px;
-      padding-right: 5px; 	
-      margin-bottom: 20px; 
-      margin-top: 10px; 	
-      text-transform: uppercase;
-      background-color: darkred; 
-      border-color: darkred; 
-      border-style: solid; 
-      border-radius: 10px;	
-      width: 50%;   
-    cursor: pointer;
+  .buttonform{ @extend .botonprimario;
+
   }
   
   
@@ -81,10 +71,10 @@
   }
   
   
-  h3{
-      font-size: 16px; 
+  h3{  
+      font-size: 15px;
       padding-bottom: 30px;
-      color: #0e0e0e;   
+      color: #0e0e0e;
   }
   
   
@@ -100,13 +90,13 @@
   
   .formulario input:focus{
       outline:0;
-      border: 1px solid #97d848;
+      border: 1px solid black;
   }
   
   
   .formulario textarea:focus{
       outline:0;
-      border: 1px solid #97d848;
+      border: 1px solid black;
   }
   
   

@@ -1,9 +1,24 @@
+.botonprimario, .buttonform {
+  height: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: darkred;
+  border-color: darkred;
+  border-style: solid;
+  border-radius: 10px;
+  width: 50%;
+  cursor: pointer; }
+
 /*TITULO*/
 .title {
   color: black;
-  text-align: center;
-  font-size: 13px;
   font-family: sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  text-align: center;
   padding: 56px;
   margin-top: 30px;
   margin-bottom: 20px; }
@@ -31,18 +46,31 @@
   border-radius: 15px;
   text-align: center; }
   .card .subTitle {
-    text-decoration: none;
     color: darkred;
     font-family: sans-serif;
-    font-size: 13px; }
+    font-size: 15px;
+    text-decoration: none; }
   .card .cardBody {
+    color: black;
     font-family: sans-serif;
     font-size: 15px;
-    color: black;
+    text-decoration: none;
     margin: 15px;
     padding: 15px; }
 
-/*FORMULARIO/*
+.botonprimario, .buttonform {
+  height: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: darkred;
+  border-color: darkred;
+  border-style: solid;
+  border-radius: 10px;
+  width: 50%;
+  cursor: pointer; }
 
 /* FORMULARIO */
 .contact_form {
@@ -86,7 +114,35 @@ label {
   display: block;
   float: center; }
 
-.buttonform {
+button p {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 20p; }
+
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e; }
+
+h3 {
+  font-size: 15px;
+  padding-bottom: 30px;
+  color: #0e0e0e; }
+
+::-webkit-input-placeholder {
+  color: #a8a8a8; }
+
+::-webkit-textarea-placeholder {
+  color: #a8a8a8; }
+
+.formulario input:focus {
+  outline: 0;
+  border: 1px solid black; }
+
+.formulario textarea:focus {
+  outline: 0;
+  border: 1px solid black; }
+
+.botonprimario, .buttonform {
   height: 30px;
   padding-left: 5px;
   padding-right: 5px;
@@ -99,34 +155,6 @@ label {
   border-radius: 10px;
   width: 50%;
   cursor: pointer; }
-
-button p {
-  color: #fff;
-  font-family: sans-serif;
-  font-size: 20p; }
-
-.aviso {
-  font-size: 13px;
-  color: #0e0e0e; }
-
-h3 {
-  font-size: 16px;
-  padding-bottom: 30px;
-  color: #0e0e0e; }
-
-::-webkit-input-placeholder {
-  color: #a8a8a8; }
-
-::-webkit-textarea-placeholder {
-  color: #a8a8a8; }
-
-.formulario input:focus {
-  outline: 0;
-  border: 1px solid #97d848; }
-
-.formulario textarea:focus {
-  outline: 0;
-  border: 1px solid #97d848; }
 
 /*FOOTER*/
 .navItem {
@@ -155,15 +183,9 @@ h3 {
   width: 50%; }
 
 .fotLayout ul {
-  display: flex; }
-
-.fotLayout {
+  display: flex;
   flex-direction: column;
-  align-items: center; }
-
-.fotLayout ul {
-  flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center; }
 
 /*Imagenes*/
@@ -186,15 +208,7 @@ h3 {
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     grid-template-areas: "sarea1" "sarea2" "sarea3" "sarea4"; }
-  /* Main */
-  .title {
-    font-size: 15px; }
-  .subTitle {
-    font-size: 15px; }
   /* Footer*/
-  .footerLayout {
-    align-items: center;
-    justify-content: space-evenly; }
   .footerNavLayout {
     width: 50%;
     margin: 0px; }
@@ -220,11 +234,6 @@ h3 {
 
 /*MEDIAMIN900*/
 @media only screen and (min-width: 992px) {
-  /* Main */
-  .title {
-    font-size: 25px; }
-  .subTitle {
-    font-size: 20px; }
   /*GRILLAS*/
   /*3*/
   #cardsLayout {

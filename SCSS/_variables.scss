@@ -1,2 +1,29 @@
 $fuente-ppal: sans-serif;
 $color-primario: darkred;
+
+
+
+@mixin estilotitulos($colorletra,$fuenteletra,$tamletra) {
+
+    color:$colorletra;
+    font-family:$fuenteletra;
+    font-size:$tamletra;
+    text-decoration: none;
+    }
+
+
+.botonprimario {
+        height: 30px; 
+        padding-left: 5px;
+        padding-right: 5px; 	
+        margin-bottom: 20px; 
+        margin-top: 10px; 	
+        text-transform: uppercase;
+        background-color: darkred; 
+        border-color: darkred; 
+        border-style: solid; 
+        border-radius: 10px;	
+        width: 50%;   
+        cursor: pointer;
+      }
+      
